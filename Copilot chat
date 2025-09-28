@@ -1,0 +1,7 @@
+Write a Python script that: Reads a CSV file of loans
+Detects the interest rate column (common names: interest_rate, int_rate, Rate, APR, etc.)
+Cleans values like "13.49%", "0.1349", or "13.49" into percentages Rounds to 2 decimals Finds the 3 most common loan interest rates Prints them with counts and percentages
+no pandas and include comments and functions for clarity.
+import csv
+import os
+from collections import Counter
